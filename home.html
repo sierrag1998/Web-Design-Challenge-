@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Components</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<!--Body-->
+<body>
+
+<!--NAV BAR-->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <h3><span>Latitude</span></h3>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="home.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="visualizations.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="visualizations.html">Max Temperature</a>
+            <a class="dropdown-item" href="plot_humidity.html">Humidity</a>
+            <a class="dropdown-item" href="plot_cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="plot_windspeed.html">Wind Speed</a>
+          </div>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="comparisons page.html">Comparison</a>
+         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="data.html">Data</a>
+        </li>
+    </div>
+  </nav>
+
+
+
+<!--JUMBOTRONS-->
+  <div class="container">
+      <div class="row">
+        <div class="jumbotron">
+              <h1 class="title">Summary: Latitude v.s  X</h1>
+              <hr>
+               <img src="/Users/Sierra/Documents/School/Assignments/HTML/Resources/assets/images/Fig1.png" alt="..." class="img-responsive">
+                   <p class="para"> WeatherPy2 is an anaylsis of around 600 cities and their weather data on 01/05/17. After exploring several relationships between the weather data, the first conclusion drawn is the max temperatures of the cities tend to be higher in cities closer to the equator.
+
+                       More specifically, in the Northern Hemisphere, latititude and temperature have a negative correlation. In the Southern Hemisphere, it appears latititude and temperature have a postivie correlation.
+
+                       In addition, It appears in both hempispheres, there is not a significant correlation between the latitudes of cities and their humidities.
+
+                       Lastly, It appears in both hempispheres, there is not a significant correlation between the latitudes of cities and their windspeeds.</p>
+        </div>
+      </div>
+  </div>
+
+<!--JUMBOTRONS-->
+  <div class="container">
+      <div class="row">
+
+      <div class="jumbotron">
+          <h1 class="title" "text-left">Visualizations</h1>
+          <hr>
+
+     <a href="visualizations.html">
+      <img src="/Users/Sierra/Documents/School/Assignments/HTML/Resources/assets/images/Fig1.png" alt="..." class="upperblock"></a>
+    <a href="plot_humidity.html">
+      <img src="/Users/Sierra/Documents/School/Assignments/HTML/Resources/assets/images/Fig2.png" alt="..." class="upperblock"></a>
+
+     <a href="plot_cloudiness.html">
+      <img src="/Users/Sierra/Documents/School/Assignments/HTML/Resources/assets/images/Fig3.png" alt="..." class="lowerblock"></a>
+    <a href="plot_windspeed.html">
+      <img src="/Users/Sierra/Documents/School/Assignments/HTML/Resources/assets/images/Fig4.png" alt="..." class="lowerblock"></a>
+      </div>
+    </div>
+  </div>
+
+
+<!--#Script -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

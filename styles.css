@@ -1,0 +1,94 @@
+
+/* All */
+
+
+
+.title {  padding: 0;
+  margin: 0;
+  font-family: Georgia;
+  font-size: 45px;
+  line-height: 150%;
+  color: #2CBFB4;
+  }
+
+.para  {padding: 0;
+  margin: 0;
+  font-family: Georgia;
+  font-size: 18px;
+  line-height: 150%;
+  color: 000;
+}
+
+.footer.jumbotron {
+  margin-bottom: 0;
+}
+
+.container{
+    display: flex
+}
+
+.flex{
+    display: flex: 1.3334;
+}
+/* Home */
+.size.img {
+  width: 50%;
+  height: auto;
+}
+
+
+
+/* Data */
+.databody {
+  padding: 20;
+  margin: 20;
+  font-family: Georgia;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000;
+}
+
+
+
+/* Visualization */
+
+/* Comparison */
+.space{margin-top:20px;
+    margin-bottom: 50px;
+    align: right;}
+
+.title2 {  padding: 0;
+  margin: 0;
+  font-family: Georgia;
+  font-size: 20px;
+  line-height: 150%;
+  color: #2CBFB4;
+  float:left;
+  width:50%;
+  padding:10px;
+  }
+
+.upperblock{
+float:left;
+width:50%;
+padding:10px;
+
+}
+
+
+
+/* Media */
+
+@media all and (max-width: 800px) {
+
+    .navbar-light {background-color: #2CBFB4;
+
+   }
+
+   .conditional {
+   	width: 100%;
+	padding:10px;
+
+	}
+}
+
